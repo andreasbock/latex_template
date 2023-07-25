@@ -1,0 +1,124 @@
+% Font
+\renewcommand*\rmdefault{ppl}
+
+% ---------------------------------------------
+% Theorems & Environments
+% ---------------------------------------------
+\newcounter{mythm}
+\newcounter{mylem}
+\newcounter{myrem}
+\newcounter{myexa}
+\newcounter{mypro}
+\newcounter{mycol}
+\newcounter{myass}
+\newcounter{mydef}
+\newcounter{mysketch}
+\newtheorem{theorem}[mythm]{Theorem}
+\newtheorem{definition}[mydef]{Definition}
+\newtheorem{remark}[myrem]{Remark}
+\newtheorem{lemma}[mylem]{Lemma}
+\newtheorem{example}[myexa]{Example}
+\newtheorem{proposition}[mypro]{Proposition}
+\newtheorem{corollary}[mycol]{Corollary}
+\newtheorem{assumption}[myass]{Assumption}
+\newtheorem{sketch}[mysketch]{Proof Sketch}
+
+
+% Question & answers environment
+\newcommand{\todo}[1]{\textcolor{red}{ #1 }}
+
+
+% Bolds
+\newcommand{\by}{\mathbf{y}}
+\newcommand{\bx}{\mathbf{x}}
+\newcommand{\bp}{\mathbf{p}}
+\newcommand{\bP}{\mathbf{P}}
+\newcommand{\bA}{\mathbf{A}}
+\newcommand{\bh}{\mathbf{h}}
+\newcommand{\bW}{\mathbf{W}}
+\newcommand{\bQ}{\mathbf{Q}}
+\newcommand{\bT}{\mathbf{T}}
+\newcommand{\bV}{\mathbf{V}}
+\newcommand{\bX}{\mathbf{X}}
+\newcommand{\bY}{\mathbf{Y}}
+\newcommand{\bD}{\mathbf{D}}
+\newcommand{\bM}{\mathbf{M}}
+\newcommand{\bH}{\mathbf{H}}
+\newcommand{\bL}{\mathbf{L}}
+\newcommand{\bR}{\mathbf{R}}
+\newcommand{\bS}{\mathbf{S}}
+\newcommand{\bK}{\mathbf{K}}
+\newcommand{\bG}{\mathbf{G}}
+\newcommand{\bb}{\mathbf{b}}
+\newcommand{\bd}{\mathbf{d}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Rd}{\mathbb{R}^d}
+
+
+% Fields
+\newcommand{\Realn}{\mathbb{R}^n}
+\newcommand{\Rm}{\mathbb{R}^m}
+\newcommand{\Rnn}{\mathbb{R}^{n\times n}}
+\newcommand{\Rmm}{\mathbb{R}^{m\times m}}
+\newcommand{\Rnm}{\mathbb{R}^{n\times m}}
+\newcommand{\Rmn}{\mathbb{R}^{m\times n}}
+\newcommand{\Rkk}{\mathbb{R}^{k\times k}}
+\newcommand{\Rnr}{\mathbb{R}^{n\times r}}
+\newcommand{\Rrn}{\mathbb{R}^{r\times n}}
+\newcommand{\Rnk}{\mathbb{R}^{n\times k}}
+\newcommand{\Rkn}{\mathbb{R}^{k\times n}}
+\newcommand{\Rmr}{\mathbb{R}^{m\times r}}
+
+
+% Linear Algebra
+\newcommand{\transp}{^\top}
+\newcommand{\invtransp}{^{-\top}}
+\newcommand{\inv}{^{-1}}
+\newcommand{\invhalftransp}{^{{-\halftransp}}}
+\newcommand{\invhalf}{^{-\half}}
+\newcommand{\trace}[1]{\textnormal{trace}( #1 )}
+\newcommand{\logdet}[1]{\log \det( #1 )}
+\newcommand{\rank}{\textnormal{rank}}
+\newcommand{\range}{\textnormal{range}}
+\newcommand{\blkdiag}{\textnormal{\texttt{blkdiag}}}
+\newcommand{\blktridiag}{\textnormal{\texttt{blktridiag}}}
+\newcommand{\diag}[1]{\textbf{diag}( #1 )}
+
+
+% Geometry-related
+\newcommand{\Divergence}{\mathcal{D}}
+\newcommand{\Bregman}{\mathcal{D}_\textnormal{B}}
+\newcommand{\vonNeumann}{\mathcal{D}_\textnormal{vN}}
+
+
+% Groups
+\newcommand{\SL}[1]{\textnormal{SL}(#1)}
+\newcommand{\SO}[1]{\textnormal{SO}(#1)}
+\newcommand{\GL}[1]{\textnormal{GL}(#1)}
+\newcommand{\Aff}[1]{\textnormal{Aff}(#1)}
+\newcommand{\SLn}{\SL{n}}
+\newcommand{\SOn}{\SO{n}}
+\newcommand{\GLn}{\GL{n}}
+\newcommand{\Affn}{\Aff{n}}
+\newcommand{\SLm}{\SL{m}}
+\newcommand{\SOm}{\SO{m}}
+\newcommand{\GLm}{\GL{m}}
+\newcommand{\Affm}{\Aff{m}}
+
+
+% Probaility & statistics
+\newcommand{\expectwrt}[2]{\mathds{E}^{#1}\big[ #2 \big]}
+\newcommand{\expect}[1]{\mathds{E}\big[ #1 \big]}
+\newcommand{\KL}{\textnormal{KL}}
+\newcommand{\given}{\,|\,}
+\newcommand{\Normal}{\mathcal{N}}
+
+
+% Citations
+\newcommand{\cm}{\textsuperscript{\textcolor{red}{[Citation Missing]}}}
+
+
+% Misc
+\newcommand{\half}{{\frac{1}{2}}}
+\newcommand{\halftransp}{{\frac{\top}{2}}}
+\newcommand{\diff}{\,\textnormal{d}}

@@ -55,7 +55,7 @@
 \newcommand{\Rd}{\mathbb{R}^d}
 
 
-% Fields
+% Fields & spaces
 \newcommand{\Realn}{\mathbb{R}^n}
 \newcommand{\Rm}{\mathbb{R}^m}
 \newcommand{\Rnn}{\mathbb{R}^{n\times n}}
@@ -68,6 +68,24 @@
 \newcommand{\Rnk}{\mathbb{R}^{n\times k}}
 \newcommand{\Rkn}{\mathbb{R}^{k\times n}}
 \newcommand{\Rmr}{\mathbb{R}^{m\times r}}
+\newcommand{\Cn}{\mathbb{C}^n}
+\newcommand{\Cnn}{\mathbb{C}^{n\times n}}
+\newcommand{\Cmm}{\mathbb{C}^{m\times m}}
+\newcommand{\Cnm}{\mathbb{C}^{n\times m}}
+\newcommand{\Cmn}{\mathbb{C}^{m\times n}}
+\newcommand{\Ckk}{\mathbb{C}^{k\times k}}
+\newcommand{\Cnr}{\mathbb{C}^{n\times r}}
+\newcommand{\Crr}{\mathbb{C}^{r\times r}}
+\newcommand{\Crn}{\mathbb{C}^{r\times n}}
+\newcommand{\Cnk}{\mathbb{C}^{n\times k}}
+\newcommand{\Ckn}{\mathbb{C}^{k\times n}}
+\newcommand{\Cmr}{\mathbb{C}^{m\times r}}
+
+\newcommand{\Sn}{\mathbb{H}^n}
+\newcommand{\Sr}{\mathbb{H}^r}
+\newcommand{\Snp}{{\Sn_+}}
+\newcommand{\Snpp}{{\Sn_{++}}}
+\newcommand{\Srpp}{{\Sr_{++}}}
 
 
 % Linear Algebra
@@ -76,13 +94,29 @@
 \newcommand{\inv}{^{-1}}
 \newcommand{\invhalftransp}{^{{-\halftransp}}}
 \newcommand{\invhalf}{^{-\half}}
+\newcommand{\Hermitian}{^*}
+\newcommand{\invHermitian}{^{-*}}
+\newcommand{\invhalftransp}{^{{-\halftransp}}}
+\newcommand{\invhalfHermitian}{^{{-\halfHermitian}}}
+
 \newcommand{\trace}[1]{\textnormal{trace}( #1 )}
 \newcommand{\logdet}[1]{\log \det( #1 )}
-\newcommand{\rank}{\textnormal{rank}}
-\newcommand{\range}{\textnormal{range}}
 \newcommand{\blkdiag}{\textnormal{\texttt{blkdiag}}}
 \newcommand{\blktridiag}{\textnormal{\texttt{blktridiag}}}
 \newcommand{\diag}[1]{\textbf{diag}( #1 )}
+
+
+% Math operators
+\DeclareMathOperator{\adj}{adj}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\Tr}{trace}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\range}{range}
+\DeclareMathOperator{\interior}{int}
+\DeclareMathOperator{\domain}{dom}
+\DeclareMathOperator{\relint}{ri}
+\DeclareMathOperator{\aff}{aff}
+\DeclareMathOperator{\sign}{sign}
 
 
 % Geometry-related

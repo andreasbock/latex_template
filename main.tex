@@ -1,0 +1,75 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper,
+            left=1in,
+            right=1in,
+            top=1in,
+            bottom=1in,
+            footskip=.25in
+]{geometry}
+
+%---- packages ----
+\usepackage[sc]{titlesec}
+\usepackage{blindtext,color}
+\usepackage{microtype}
+\usepackage{scrextend}
+\usepackage{upgreek}
+\usepackage{stmaryrd}
+\usepackage{tocloft}
+
+% Algorithms
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+
+% Symbols & Math
+\usepackage{tcolorbox}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{shadethm}
+\usepackage{bbold}
+\usepackage{bm}
+
+% Fancy header
+\usepackage{xspace}
+\usepackage{dsfont}
+\usepackage{marginnote}
+
+% Figures
+\usepackage{graphicx}
+\usepackage[
+    backend=biber,
+    style=alphabetic-verb,
+    sorting=ynt
+]{biblatex}
+\usepackage[citecolor=blue,colorlinks=true,linkcolor=blue]{hyperref}%
+\usepackage{tikz}
+\usetikzlibrary{cd}
+
+
+% <Add more packages here>
+%-------------------
+
+%---- defitions ----
+\title{Title}
+\author{Andreas Bock}
+\date{\today}
+
+\setlength{\parindent}{0pt}
+
+\input{commands}
+% <Add more defitions here>
+%--------------------------
+
+%---- settings -----
+\addbibresource{main.bib}
+%-------------------
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\section{Introduction}
+
+\printbibliography
+\end{document}

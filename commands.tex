@@ -98,7 +98,6 @@
 \newcommand{\invHermitian}{^{-*}}
 \newcommand{\invhalfHermitian}{^{{-\halfHermitian}}}
 
-\newcommand{\trace}[1]{\textnormal{trace}( #1 )}
 \newcommand{\logdet}[1]{\log \det( #1 )}
 \newcommand{\blkdiag}{\textnormal{\texttt{blkdiag}}}
 \newcommand{\blktridiag}{\textnormal{\texttt{blktridiag}}}
@@ -107,7 +106,8 @@
 % General math operators
 \DeclareMathOperator{\adj}{adj}
 \DeclareMathOperator{\diag}{diag}
-\DeclareMathOperator{\Tr}{trace}
+\DeclareMathOperator{\Traceop}{trace}
+\newcommand{\Tr}[1]{\Traceop \big( #1 \big)}
 \DeclareMathOperator{\rank}{rank}
 \DeclareMathOperator{\range}{range}
 \DeclareMathOperator{\interior}{int}
